@@ -1,0 +1,229 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.nav {
+    display: inline-block;
+    position: sticky;
+    top: 60px;
+}
+
+.nav ul{
+    background-color: #f1f1f1;
+    padding: 10px 50px;
+    width: 540px;
+    font-size: 19px;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.nav ul a li{
+    margin: 0px 10px;
+    display: inline-block;
+    font-family: sans-serif;
+    padding: 10px; 
+    color: #111;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav ul a li:hover {
+
+    color: white;
+    background-image: linear-gradient(to bottom right, white, red,mistyrose);
+    border-radius: 6px;
+}
+
+.wrapper .box{
+    margin-top: 20px;
+}
+
+.box1{
+    display: block;
+    padding: 10px 20px;
+    background-color: #FFF;
+    font-size: 14px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+
+.section1 .box3 {
+    display: block;
+    padding: 90px 20px;
+    background-color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);    
+
+}
+
+.box3 {
+    margin-top: 20px;
+    background-image: url(../upload/deliverbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box3 #La {
+    color: red;
+    font-family: fantasy;
+    font-size: 6em;
+    -webkit-text-stroke: 2px white;
+}
+
+.box3 .wrapper #Au {
+    color: blue;
+    font-family: fantasy;
+    font-size: 2.5em;
+    -webkit-text-stroke: 1px white;
+}
+
+.box3 .wrapper #ta1 {
+    color: blue;
+    font-family: fantasy;
+    font-size: 2.5em;
+    -webkit-text-stroke: 1px white;
+}
+
+.box3 #free {
+    color: orange;
+    font-style: italic;
+    font-family: fantasy;
+    font-size: 2.5em;
+    -webkit-text-stroke: 1px white;
+}
+
+.box3 span {
+    color: #f1f1f1;
+    text-shadow: 0 0 0px #FF0000, 0 0 5px #111;
+}
+
+#shopnow {
+
+    background-color: whitesmoke;
+    border: 3px solid white;
+    color: #111;
+    padding: 6px 70px;
+    font-weight: 700;
+    font-family: 'arial',sans-serif;
+}
+
+#shopnow:hover {
+
+    background-color: red;
+    border: 3px solid red;
+    color: whitesmoke;
+    font-weight: 700;
+    font-family: 'arial',sans-serif;
+}
+
+.section{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.cover {
+    background-image: url(../upload/deliver.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-left: 100px solid #fff; 
+    border-top: 390px solid transparent;
+    height: 20vh;
+    width: 73%;
+    float: right;
+
+}
+
+.section .box-content .box2 {
+    display: inline-block;
+    background-color: #fff;
+    font-size: 14px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26),
+    0 2px 10px 0 rgba(0, 0, 0, 0.22);
+    float: left;
+}
+.section h2 {
+    font-weight: 900;
+    letter-spacing: .1em;
+}
+
+#text {
+    
+    margin: 90px 0 0 10px;
+    text-align: center;
+
+}
+
+.footer {
+
+    margin-top: 60%;
+
+}
+
+.footer .content{
+    padding: 10px 0px 10px 10px;
+    display: block;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+    background-image: url('../upload/world.jpg'); 
+}
+
+.footer .content .content-inner h4 p {
+
+    float: left;
+}
+
+.footer .content .content-inner h4 {
+
+    color: white;
+    font-weight: 900;
+    font-family: arial;
+    font-size: 22px;
+    text-align: justify;
+    letter-spacing: 1pt;
+    text-shadow: 0 0 0px #FF0000;
+}
+
+.footer .content .content-inner #p {
+
+    color: #f1f1f1;
+}
+
+.footer .content .content-inner #t {
+
+    color: yellow;
+}
+
+.footer .content .content-inner #g {
+
+    color: magenta;
+}
+
+.footer .content .content-inner p {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 1pt;
+    padding-bottom: 20px;
+}
+
+.footer .content .content-inner #number {
+    
+    float: right;
+    color: white;
+    font-weight: bold;
+    margin-right: 70px;
+    letter-spacing: 1px;
+
+}
+
+#contact sub {
+    color: white;
+    float: right;
+    margin: 0 10px 0px 0;
+
+}
