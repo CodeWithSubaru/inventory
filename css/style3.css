@@ -15,16 +15,15 @@ html {
 }
 
 .container {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  height: 80vh;
 }
 
 .row {
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   gap: 2rem;
+  height: 90vh;
 }
 
 .form-div {

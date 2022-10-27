@@ -275,8 +275,9 @@ if (isset($_POST['change'])) {
 	$result = $conn->query($sql);
 	$row = $result->fetch_assoc();
 
+	$u_Pass = $row['u_Pass'] ?? '';
 	if (!empty($old)) {
-		if ($pas1 != $row['u_Pass']) {
+		if ($pas1 != $u_Pass) {
 			$error['oldpas'] = "Wrong Current Password";
 		}
 	}
@@ -286,8 +287,9 @@ if (isset($_POST['change'])) {
 		}
 	}
 
+
 	if (!empty($new)) {
-		if ($pas2 == $row['u_Pass']) {
+		if ($pas2 == $u_Pass) {
 			$error['newpas'] = "Try different Password";
 		}
 		if (!empty($con)) {
@@ -368,15 +370,18 @@ if (isset($_POST['pId'])) {
 	$result = $stmt->get_result();
 	$r = $result->fetch_assoc();
 
-	$mes = $r['message'];
-	$c_o_d_Id = $r['c_o_d_Id'];
-	$qty2 = $r['qty'];
-	$Mes = $r['Mes'];
+	$mes = $r['message'] ?? '';
+	$c_o_d_Id = $r['c_o_d_Id'] ?? '';
+	$qty2 = $r['qty'] ?? '';
+	$Mes = $r['Mes'] ?? '';
 
 	//if cart
 
 	if (isset($mes) && $mes == $x) {
+
 		if ($qty2 >= $Mes) {
+
+
 			echo '
 			<div class="alert alert-success alert-dismissible mt-2"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Item already added to your cart!</strong></div>';
 		} else {

@@ -84,15 +84,15 @@
 
         <tr class="text-center">
 
-          <th scope="col">Name of Product Ordered</th>
+          <th scope="col">Name</th>
 
-          <th scope="col">Amount of Item Ordered</th>
+          <th scope="col">Amount</th>
 
-          <th scope="col">Quantity of Item Ordered</th>
+          <th scope="col">Quantity</th>
 
-          <th scope="col">Total Price Ordered</th>
+          <th scope="col">Total Price</th>
 
-          <th scope="col">Date and Time of Item Ordered</th>
+          <th scope="col">Date and Time</th>
 
           <th scope="col">Action</th>
 
@@ -140,12 +140,8 @@
 
           <?php } else {
             echo "
-      <td></td>
-      <td></td>
-      <td colspan='2' class='text-danger text-center'>0 Result</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td colspan='6' class='text-danger text-center'>No items Found!</td>
+
       ";
           }
           ?>
@@ -179,15 +175,15 @@
 
         <tr>
 
-          <th scope="colspan">Name of Product Ordered</th>
+          <th scope="colspan">Name</th>
 
-          <th scope="col">Amount of Item Ordered</th>
+          <th scope="col">Amount</th>
 
-          <th scope="col">Quantity of Item Ordered</th>
+          <th scope="col">Quantity</th>
 
-          <th scope="col">Total Price Ordered</th>
+          <th scope="col">Total Price</th>
 
-          <th scope="col">Date and Time of Item Ordered</th>
+          <th scope="col">Date and Time</th>
 
           <th scope="col">Action</th>
 
@@ -241,12 +237,8 @@
     <?php } else {
 
             echo "
-      <td></td>
-      <td></td>
-      <td colspan='2' class='text-danger text-center'>0 Result</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td colspan='6' class='text-danger text-center'>No items Found!</td>
+
       ";
           }
     ?>
@@ -277,15 +269,15 @@
 
         <tr class="text-center">
 
-          <th scope="col">Name of Product Ordered</th>
+          <th scope="col">Name</th>
 
-          <th scope="col">Amount of Item Ordered</th>
+          <th scope="col">Amount</th>
 
-          <th scope="col">Quantity of Item Ordered</th>
+          <th scope="col">Quantity</th>
 
-          <th scope="col">Total Price Ordered</th>
+          <th scope="col">Total Price</th>
 
-          <th scope="col">Date and Time of Item Ordered</th>
+          <th scope="col">Date and Time</th>
 
           <th scope="col">Item Ordered</th>
 
@@ -328,12 +320,8 @@
           <?php } else {
 
             echo "
-      <td></td>
-      <td></td>
-      <td colspan='2' class='text-danger text-center'>0 Result</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td colspan='6' class='text-danger text-center'>No items Found!</td>
+  
       ";
           }
           ?>

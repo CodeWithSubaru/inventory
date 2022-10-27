@@ -49,12 +49,14 @@ if (isset($_SESSION['ses_Email'])) {
 
     <?php endif; ?>
 
+
     <!-- validation error message -->
     <div class="container">
 
+
         <?php if (count($errors) > 0) : ?>
 
-            <div class="alert alert-danger alert-dismissible fade show" role="alert" style="width: 100%;text-align: auto;">
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
 
                 <?php foreach ($errors as $error) : ?>
 
@@ -70,6 +72,7 @@ if (isset($_SESSION['ses_Email'])) {
         <?php endif; ?>
 
         <div class="row">
+
 
             <div class="img-container">
 
